@@ -6,6 +6,9 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,14 +40,15 @@
         <section class="section-one section">
             <div class="container">
                 <h1 class="main-title">Effective Solutions for Your Business</h1>
-                <button type="button" class="main-button button-cont">Order Service</button>
+                <button type="button" class="main-button">Order Service</button>
             </div>
         </section>
 
 
         <section class="section-two section">
-            <h2 hidden>advantages</h2>
             <div class="container">
+                <h2 class="visually-hidden">advantages</h2>
+
                 <ul class="advantages-cont">
                     <li class="adv-item-cont">
                         <h3 class="advantages-title">Strategy</h3>
@@ -86,23 +90,31 @@
                 <ul class="team-cont">
                     <li class="team-list">
                         <img src="./images/img1.jpg" alt="photo" width="264" height="260" />
-                        <h3 class="team-people">Mark Guerrero</h3>
-                        <p class="team-people-txt">Product Designer</p>
+                        <div class="tm-pp-cont">
+                            <h3 class="team-people">Mark Guerrero</h3>
+                            <p class="team-people-txt">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team-list">
                         <img src="./images/img2.jpg" alt="photo" width="264" height="260" />
-                        <h3 class="team-people">Tom Ford</h3>
-                        <p class="team-people-txt">Frontend Developer</p>
+                        <div class="tm-pp-cont">
+                            <h3 class="team-people">Tom Ford</h3>
+                            <p class="team-people-txt">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team-list">
                         <img src="./images/img3.jpg" alt="photo" width="264" height="260" />
-                        <h3 class="team-people">Camila Garcia</h3>
-                        <p class="team-people-txt">Marketing</p>
+                        <div class="tm-pp-cont">
+                            <h3 class="team-people">Camila Garcia</h3>
+                            <p class="team-people-txt">Marketing</p>
+                        </div>
                     </li>
                     <li class="team-list">
                         <img src="./images/img4.jpg" alt="photo" width="264" height="260" />
-                        <h3 class="team-people">Daniel Wilson</h3>
-                        <p class="team-people-txt">UI Designer</p>
+                        <div class="tm-pp-cont">
+                            <h3 class="team-people">Daniel Wilson</h3>
+                            <p class="team-people-txt">UI Designer</p>
+                        </div>
                     </li>
 
                 </ul>
@@ -114,33 +126,45 @@
                 <ul class="portfolio-cont">
                     <li class="boarder-img">
                         <img src="./images/img5.jpg" alt="photo" width="360" />
-                        <h3 class="portfolio-products">Banking App</h3>
-                        <p class="portfolio-products-txt">App</p>
+                        <div class="prod-cont">
+                            <h3 class="portfolio-products">Banking App</h3>
+                            <p class="portfolio-products-txt">App</p>
+                        </div>
                     </li>
                     <li class="boarder-img">
                         <img src="./images/img6.jpg" alt="photo" width="360" height="300" />
-                        <h3 class="portfolio-products">Cashless Payment</h3>
-                        <p class="portfolio-products-txt">Marketing</p>
+                        <div class="prod-cont">
+                            <h3 class="portfolio-products">Cashless Payment</h3>
+                            <p class="portfolio-products-txt">Marketing</p>
+                        </div>
                     </li>
                     <li class="boarder-img">
                         <img src="./images/img7.jpg" alt="photo" width="360" />
-                        <h3 class="portfolio-products">Meditation App</h3>
-                        <p class="portfolio-products-txt">App</p>
+                        <div class="prod-cont">
+                            <h3 class="portfolio-products">Meditation App</h3>
+                            <p class="portfolio-products-txt">App</p>
+                        </div>
                     </li>
                     <li class="boarder-img">
                         <img src="./images/img8.jpg" alt="photo" width="360" />
-                        <h3 class="portfolio-products">Taxi Service</h3>
-                        <p class="portfolio-products-txt">Marketing</p>
+                        <div class="prod-cont">
+                            <h3 class="portfolio-products">Taxi Service</h3>
+                            <p class="portfolio-products-txt">Marketing</p>
+                        </div>
                     </li>
                     <li class="boarder-img">
                         <img src="./images/img9.jpg" alt="photo" width="360" />
-                        <h3 class="portfolio-products">Screen Illustrations</h3>
-                        <p class="portfolio-products-txt">Design</p>
+                        <div class="prod-cont">
+                            <h3 class="portfolio-products">Screen Illustrations</h3>
+                            <p class="portfolio-products-txt">Design</p>
+                        </div>
                     </li>
                     <li class="boarder-img">
                         <img src="./images/img10.jpg" alt="photo" width="360" />
-                        <h3 class="portfolio-products">Online Courses</h3>
-                        <p class="portfolio-products-txt">Marketing</p>
+                        <div class="prod-cont">
+                            <h3 class="portfolio-products">Online Courses</h3>
+                            <p class="portfolio-products-txt">Marketing</p>
+                        </div>
                     </li>
                 </ul>
             </div>
